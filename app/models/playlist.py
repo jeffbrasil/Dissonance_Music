@@ -9,11 +9,13 @@ from app.db.base_class import Base
 class Playlist(Base):
     __tablename__ = "playlists"
 
+    #atributos obrigatórios
+    
     user_id: Mapped[UUID] = mapped_column(ForeignKey("users.id"), index=True, nullable=False)
-    spotify_playlist_id: Mapped[str | None] = mapped_column(String, nullable=True, default=None)
-
-    # Parâmetros matemáticos usados na geração (para histórico — US20)
     alpha: Mapped[float] = mapped_column(Float, nullable=False)
+    # Parâmetros matemáticos usados na geração (para histórico — US20)
+    spotify_playlist_id: Mapped[str | None] = mapped_column(String, nullable=True, default=None)
+    
     weight_energy: Mapped[float] = mapped_column(Float, nullable=False, default=0.4)
     weight_acousticness: Mapped[float] = mapped_column(Float, nullable=False, default=0.3)
     weight_popularity: Mapped[float] = mapped_column(Float, nullable=False, default=0.2)

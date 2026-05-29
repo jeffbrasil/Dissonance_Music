@@ -15,6 +15,10 @@ sys.path.insert(0, dirname(abspath(__file__)))
 
 from app.db.base_class import Base
 from app.models.user import User
+from app.models.playlist import Playlist
+from app.models.token import SpotifyToken
+from app.models.track import Track
+
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
 config = context.config

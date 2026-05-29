@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ambiente Virtual
+.venv/
+venv/
+ENV/
+
+# Pytest e Cobertura de Testes
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# Banco de Dados Local (SQLite)
+*.db
+*.sqlite3
+
+# Alembic (Histórico de migrações locais temporárias, se houver)
+# Nota: NÃO ignore a pasta 'alembic/versions', ela deve ir para o Git.
+
+# Configurações de IDEs (VS Code / PyCharm)
+.vscode/
+.idea/
+
+# Variáveis de Ambiente (Segurança)
+.env
