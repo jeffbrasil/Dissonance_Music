@@ -1,0 +1,68 @@
+Date : 2026-05-30 13:29:44
+Directory : /home/jefferson/fast_zero
+Total : 26 files,  2979 codes, 174 comments, 410 blanks, all 3563 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| toml     |          1 |      2,103 |          0 |        120 |      2,223 |
+| Python   |         23 |        753 |        174 |        262 |      1,189 |
+| Ini      |          1 |        123 |          0 |         27 |        150 |
+| Markdown |          1 |          0 |          0 |          1 |          1 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                       | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                          |         26 |      2,979 |        174 |        410 |      3,563 |
+| . (Files)                                                                                  |          3 |      2,226 |          0 |        148 |      2,374 |
+| app                                                                                        |         14 |        347 |         85 |        111 |        543 |
+| app (Files)                                                                                |          2 |          6 |          0 |          5 |         11 |
+| app/api                                                                                    |          3 |        200 |         55 |         49 |        304 |
+| app/api/endpoints                                                                          |          3 |        200 |         55 |         49 |        304 |
+| app/db                                                                                     |          2 |         42 |         12 |         12 |         66 |
+| app/models                                                                                 |          4 |         51 |          6 |         26 |         83 |
+| app/schemas                                                                                |          3 |         48 |         12 |         19 |         79 |
+| migration                                                                                  |          2 |        128 |         46 |         36 |        210 |
+| migration (Files)                                                                          |          1 |         45 |         32 |         20 |         97 |
+| migration/versions                                                                         |          1 |         83 |         14 |         16 |        113 |
+| tests                                                                                      |          7 |        278 |         43 |        115 |        436 |
+| tests (Files)                                                                              |          2 |         40 |          6 |         11 |         57 |
+| tests/integration                                                                          |          3 |        179 |         27 |         83 |        289 |
+| tests/unit                                                                                 |          2 |         59 |         10 |         21 |         90 |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                   | language | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /home/jefferson/fast_zero/README.md                                                        | Markdown |          0 |          0 |          1 |          1 |
+| /home/jefferson/fast_zero/alembic.ini                                                      | Ini      |        123 |          0 |         27 |        150 |
+| /home/jefferson/fast_zero/app/__init__.py                                                  | Python   |          0 |          0 |          1 |          1 |
+| /home/jefferson/fast_zero/app/api/endpoints/playlist_router.py                             | Python   |         65 |         17 |         16 |         98 |
+| /home/jefferson/fast_zero/app/api/endpoints/track_router.py                                | Python   |         70 |         19 |         18 |        107 |
+| /home/jefferson/fast_zero/app/api/endpoints/user_router.py                                 | Python   |         65 |         19 |         15 |         99 |
+| /home/jefferson/fast_zero/app/db/base_class.py                                             | Python   |         26 |          4 |          7 |         37 |
+| /home/jefferson/fast_zero/app/db/session.py                                                | Python   |         16 |          8 |          5 |         29 |
+| /home/jefferson/fast_zero/app/main.py                                                      | Python   |          6 |          0 |          4 |         10 |
+| /home/jefferson/fast_zero/app/models/playlist.py                                           | Python   |         15 |          3 |          8 |         26 |
+| /home/jefferson/fast_zero/app/models/token.py                                              | Python   |         12 |          1 |          8 |         21 |
+| /home/jefferson/fast_zero/app/models/track.py                                              | Python   |         16 |          2 |          6 |         24 |
+| /home/jefferson/fast_zero/app/models/user.py                                               | Python   |          8 |          0 |          4 |         12 |
+| /home/jefferson/fast_zero/app/schemas/playlist_schema.py                                   | Python   |         30 |          5 |          9 |         44 |
+| /home/jefferson/fast_zero/app/schemas/track_schema.py                                      | Python   |          0 |          0 |          1 |          1 |
+| /home/jefferson/fast_zero/app/schemas/user_schema.py                                       | Python   |         18 |          7 |          9 |         34 |
+| /home/jefferson/fast_zero/migration/env.py                                                 | Python   |         45 |         32 |         20 |         97 |
+| /home/jefferson/fast_zero/migration/versions/e441917f9a7b_recriando_arquivo_de_migração.py | Python   |         83 |         14 |         16 |        113 |
+| /home/jefferson/fast_zero/poetry.lock                                                      | toml     |      2,103 |          0 |        120 |      2,223 |
+| /home/jefferson/fast_zero/tests/__init__.py                                                | Python   |          0 |          0 |          1 |          1 |
+| /home/jefferson/fast_zero/tests/conftest.py                                                | Python   |         40 |          6 |         10 |         56 |
+| /home/jefferson/fast_zero/tests/integration/__init__.py                                    | Python   |          0 |          0 |          1 |          1 |
+| /home/jefferson/fast_zero/tests/integration/test_playlist_router.py                        | Python   |        113 |         18 |         51 |        182 |
+| /home/jefferson/fast_zero/tests/integration/test_user_routes.py                            | Python   |         66 |          9 |         31 |        106 |
+| /home/jefferson/fast_zero/tests/unit/__init__.py                                           | Python   |          0 |          0 |          1 |          1 |
+| /home/jefferson/fast_zero/tests/unit/test_user_crud.py                                     | Python   |         59 |         10 |         20 |         89 |
+| Total                                                                                      |          |      2,979 |        174 |        410 |      3,563 |
++--------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
